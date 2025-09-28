@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Microsoft Hearts (Lite Version)</title>
-    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <main class="container">
@@ -16,6 +16,13 @@
         <div class="playerScore" id="score1">West: 0</div>
         <div class="playerScore" id="score2">North: 0</div>
         <div class="playerScore" id="score3">East: 0</div>
+      </section>
+
+      <section id="controlsTop" class="row" style="margin-top:8px;gap:10px;align-items:center;justify-content:center;">
+        <label for="playerName">Your name:</label>
+        <input id="playerName" type="text" placeholder="Enter your name" />
+  <button id="setName">Set Name</button>
+        <div id="portraitHolder" aria-hidden="true"></div>
       </section>
 
       <section id="table">
